@@ -1,99 +1,158 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Florian Brunner</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-white text-gray-900 font-sans">
+  <!DOCTYPE html>
+  <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Florian Brunner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-900 font-sans">
 
-  <!-- Header mit Hintergrund -->
-  <header class="bg-gradient-to-r from-[#5d341d] via-[#361d0f] to-[#1d0f09] text-white">
-    <div class="max-w-5xl mx-auto px-4 py-6 flex justify-between items-center">
-      <h1 class="text-xl font-semibold">Florian Brunner</h1>
-      <nav class="space-x-4">
-        <a href="#" class="hover:underline">Über mich</a>
-        <a href="#" class="hover:underline">Publikationen</a>
-        <a href="#" class="hover:underline">Forschungsblog</a>
-        <a href="#" class="hover:underline">Kontakt</a>
-      </nav>
-    </div>
-  </header>
+    <!-- Header mit Hintergrund -->
+    <header class="bg-gradient-to-r from-[#5d341d] via-[#361d0f] to-[#1d0f09] text-white">
+      <div class="max-w-5xl mx-auto px-4 py-6 flex justify-between items-center">
+        <h1 class="text-xl font-semibold">Florian Brunner</h1>
+        <nav class="space-x-4">
+          <a href="#" class="hover:underline">Über mich</a>
+          <a href="#" class="hover:underline">Publikationen</a>
+          <a href="#" class="hover:underline">Forschungsblog</a>
+          <a href="#" class="hover:underline">Kontakt</a>
+        </nav>
+      </div>
+    </header>
 
-  <!-- Hauptbereich -->
-  <main class="max-w-5xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-    <!-- Profilbild -->
-    <div class="md:col-span-1 flex justify-center">
-      <img src="img/profil.jpg" alt="Florian Brunner" class="rounded shadow-md w-60 h-auto" />
-    </div>
-
-    <!-- Profil-Information -->
-    <div class="md:col-span-2">
-      <h2 class="text-2xl font-bold mb-1">Florian Brunner</h2>
-      <p class="text-gray-700 mb-2">AI Engineer</p>
-
-      <!-- Social Media Links -->
-      <div class="flex space-x-4 mb-4">
-        <a href="https://www.linkedin.com/in/florianbrunner/" class="text-gray-600 hover:text-black flex items-center space-x-1">
-          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM8 8h3.6v2.1h.05c.5-.95 1.7-2 3.45-2 3.7 0 4.4 2.4 4.4 5.4V24h-4v-8.4c0-2 0-4.6-2.8-4.6-2.8 0-3.2 2.2-3.2 4.4V24H8V8z"/></svg>
-          <span>LinkedIn</span>
-        </a>
-        <a href="https://github.com/flobrunner" class="text-gray-600 hover:text-black flex items-center space-x-1">
-          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 008 10.93c.58.1.77-.25.77-.55v-2.02c-3.27.71-3.96-1.58-3.96-1.58a3.12 3.12 0 00-1.3-1.71c-1.07-.73.08-.72.08-.72a2.48 2.48 0 011.8 1.2 2.5 2.5 0 003.41.98c.06-.87.38-1.5.7-1.84-2.61-.3-5.35-1.3-5.35-5.77a4.53 4.53 0 011.2-3.14 4.21 4.21 0 01.11-3.1s.99-.32 3.23 1.2a11 11 0 015.88 0c2.23-1.52 3.22-1.2 3.22-1.2.66 1.6.24 2.8.12 3.1a4.52 4.52 0 011.2 3.14c0 4.49-2.75 5.46-5.37 5.75.39.34.74 1.03.74 2.08v3.08c0 .3.2.65.78.54A11.5 11.5 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
-          <span>GitHub</span>
-        </a>
+    <!-- Hauptbereich -->
+    <main class="max-w-5xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+      <!-- Profilbild -->
+      <div class="md:col-span-1 flex justify-center">
+        <img src="img/profil.jpg" alt="Florian Brunner" class="rounded shadow-md w-60 h-auto" />
       </div>
 
-      <p class="text-gray-800 mb-4">
-        Techie mit Herz und Helm.
-        Bei einer CRM-Plattform zu Hause, in der Cloud daheim: Ich bewege mich zwischen Kubernetes-Clustern und KI-Modellen, als wäre es ein Spaziergang. Mal im Terminal, mal im Daily – ob Infrastruktur oder Produktstrategie, ich bin da, wo’s spannend wird.
-      </p>
+      <!-- Profil-Information -->
+      <div class="md:col-span-2">
+        <h2 class="text-2xl font-bold mb-1">Florian Brunner</h2>
+        <p class="text-gray-700 mb-2">AI Engineer</p>
 
-      <a href="#" class="inline-block bg-white border border-gray-800 text-gray-800 px-4 py-2 rounded hover:bg-gray-100 transition">
-        Über mich
-      </a>
+        <!-- Social Media Links -->
+        <div class="flex space-x-4 mb-4">
+          <a href="https://www.linkedin.com/in/florianbrunner/" class="text-gray-600 hover:text-black flex items-center space-x-1">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM8 8h3.6v2.1h.05c.5-.95 1.7-2 3.45-2 3.7 0 4.4 2.4 4.4 5.4V24h-4v-8.4c0-2 0-4.6-2.8-4.6-2.8 0-3.2 2.2-3.2 4.4V24H8V8z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/flobrunner" class="text-gray-600 hover:text-black flex items-center space-x-1">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 008 10.93c.58.1.77-.25.77-.55v-2.02c-3.27.71-3.96-1.58-3.96-1.58a3.12 3.12 0 00-1.3-1.71c-1.07-.73.08-.72.08-.72a2.48 2.48 0 011.8 1.2 2.5 2.5 0 003.41.98c.06-.87.38-1.5.7-1.84-2.61-.3-5.35-1.3-5.35-5.77a4.53 4.53 0 011.2-3.14 4.21 4.21 0 01.11-3.1s.99-.32 3.23 1.2a11 11 0 015.88 0c2.23-1.52 3.22-1.2 3.22-1.2.66 1.6.24 2.8.12 3.1a4.52 4.52 0 011.2 3.14c0 4.49-2.75 5.46-5.37 5.75.39.34.74 1.03.74 2.08v3.08c0 .3.2.65.78.54A11.5 11.5 0 0023.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+
+        <p class="text-gray-800 mb-4">
+          Techie mit Herz und Helm.
+          Bei einer CRM-Plattform zu Hause, in der Cloud daheim: Ich bewege mich zwischen Kubernetes-Clustern und KI-Modellen, als wäre es ein Spaziergang. Mal im Terminal, mal im Daily – ob Infrastruktur oder Produktstrategie, ich bin da, wo’s spannend wird.
+        </p>
+
+
+      </div>
+
+      <!-- Berufserfahrung -->
+      <section class="md:col-span-1 col-span-full px-4 pb-12">
+        <h3 class="text-xl font-bold mb-6 border-b pb-2">Berufserfahrung</h3>
+        <ol class="border-l-2 border-gray-300 pl-6 space-y-6">
+          <li>
+            <div class="text-sm text-gray-500">2017 – 2020 (2.5 years)</div>
+            <div class="text-lg font-semibold flex items-center">Ausbildung – Fachinformatiker Systemintegration, ADITO
+              <!-- Info-Button -->
+              <button class="group relative ml-2">
+                <!-- Icon -->
+                <svg class="w-4 h-4 text-gray-400 group-hover:text-gray-600 transition"
+                     viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.5a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9 9.25a.75.75 0 011.5 0v5a.75.75 0 01-1.5 0v-5z"/>
+                </svg>
+
+                <!-- Tooltip -->
+                <span
+                  class="pointer-events-none absolute left-full top-1/2 ml-2 -translate-y-1/2
+                         whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white
+                         opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+                  numero uno
+                </span>
+              </button>
+            </div>
+            <div class="text-gray-700">Grundlagen der IT-Infrastruktur, Netzwerktechnik, Systemadministration & CRM-Systemumfeld.</div>
+
+          </li>
+          <li>
+
+            <div class="text-sm text-gray-500">2020 – 2025 (5 years)</div>
+            <div class="text-lg font-semibold flex items-center">System Administrator – ADITO
+              <!-- Info-Button -->
+              <button class="group relative ml-2">
+                <!-- Icon -->
+                <svg class="w-4 h-4 text-gray-400 group-hover:text-gray-600 transition"
+                     viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.5a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9 9.25a.75.75 0 011.5 0v5a.75.75 0 01-1.5 0v-5z"/>
+                </svg>
+
+                <!-- Tooltip -->
+                <span
+                  class="pointer-events-none absolute left-full top-1/2 ml-2 -translate-y-1/2
+                         whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white
+                         opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+                  2t Text)
+                </span>
+              </button>
+            </div>
+            <div class="text-gray-700">Betrieb & Weiterentwicklung komplexer Systeme, IT-Automatisierung & Infrastrukturprojekte.</div>
+          </li>
+
+
+          <li class="relative flex gap-2">
+  <!-- Textblock -->
+  <div>
+    <div class="text-sm text-gray-500">seit 2025</div>
+    <div class="text-lg font-semibold flex items-center">AI Engineer – ADITO
+      <!-- Info-Button moved inline -->
+      <button class="group relative ml-2">
+        <!-- Icon -->
+        <svg class="w-4 h-4 text-gray-400 group-hover:text-gray-600 transition"
+             viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.5a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9 9.25a.75.75 0 011.5 0v5a.75.75 0 01-1.5 0v-5z"/>
+        </svg>
+
+        <!-- Tooltip -->
+        <span
+          class="pointer-events-none absolute left-full top-1/2 ml-2 -translate-y-1/2
+                 whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white
+                 opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+          3ter text
+        </span>
+      </button>
     </div>
+    <div class="text-gray-700">
+      KI-Integration in CRM-Systeme, DevOps mit Kubernetes, Architektur-Konzepte &amp; Product Ownership.
+    </div>
+  </div>
 
-    <!-- Berufserfahrung -->
-    <section class="md:col-span-1 col-span-full px-4 pb-12">
-      <h3 class="text-xl font-bold mb-6 border-b pb-2">Berufserfahrung</h3>
-      <ol class="border-l-2 border-gray-300 pl-6 space-y-6">
-        <li>
-          <div class="text-sm text-gray-500">2017 – 2019</div>
-          <div class="text-lg font-semibold">Ausbildung – Fachinformatiker Systemintegration, ADITO</div>
-          <div class="text-gray-700">Grundlagen der IT-Infrastruktur, Netzwerktechnik, Systemadministration & CRM-Systemumfeld.</div>
-        </li>
-        <li>
-          <div class="text-sm text-gray-500">2019 – 2022</div>
-          <div class="text-lg font-semibold">System Administrator – ADITO</div>
-          <div class="text-gray-700">Betrieb & Weiterentwicklung komplexer Systeme, IT-Automatisierung & Infrastrukturprojekte.</div>
-        </li>
-        <li>
-          <div class="text-sm text-gray-500">seit 2025</div>
-          <div class="text-lg font-semibold">AI Engineer – ADITO</div>
-          <div class="text-gray-700">KI-Integration in CRM-Systeme, DevOps mit Kubernetes, technische Konzepte & Product Ownership.</div>
-        </li>
-      </ol>
-    </section>
+</li>
+        </ol>
+      </section>
 
-    <!-- Bildungsweg -->
-    <section class="md:col-span-2 col-span-full px-4 pb-20">
-      <h3 class="text-xl font-bold mb-6 border-b pb-2">Bildungsweg</h3>
-      <ol class="border-l-2 border-gray-300 pl-6 space-y-6">
-        <li>
-          <div class="text-sm text-gray-500">2019 – 2020</div>
-          <div class="text-lg font-semibold">Berufsoberschule – Fachrichtung Technik</div>
-          <div class="text-gray-700">Erweiterung der fachlichen Grundlagen mit Blick auf Studium & wissenschaftliches Arbeiten.</div>
-        </li>
-        <li>
-          <div class="text-sm text-gray-500">2020 – 2024</div>
-          <div class="text-lg font-semibold">Bachelor of Science – Künstliche Intelligenz, Hochschule Landshut</div>
-          <div class="text-gray-700">Schwerpunkt auf Machine Learning, Data Engineering, Cloud-Architekturen und ethischer KI.</div>
-        </li>
-      </ol>
-    </section>
-  </main>
+      <!-- Bildungsweg -->
+      <section class="md:col-span-2 col-span-full px-4 pb-20">
+        <h3 class="text-xl font-bold mb-6 border-b pb-2">Bildungsweg</h3>
+        <ol class="border-l-2 border-gray-300 pl-6 space-y-6">
+          <li>
+            <div class="text-sm text-gray-500">2020 – 2021 (1 year)</div>
+            <div class="text-lg font-semibold">Berufsoberschule – Fachrichtung Technik</div>
+            <div class="text-gray-700">Erweiterung der fachlichen Grundlagen mit Blick auf Studium & wissenschaftliches Arbeiten.</div>
+          </li>
+          <li>
+            <div class="text-sm text-gray-500">2021 – 2025 (3.5 years) </div>
+            <div class="text-lg font-semibold">Bachelor of Science – Künstliche Intelligenz, Hochschule Landshut</div>
+            <div class="text-gray-700">Schwerpunkt auf Machine Learning, Data Engineering, Cloud-Architekturen und ethischer KI.</div>
+          </li>
+        </ol>
+      </section>
+    </main>
 
-</body>
-</html>
+  </body>
+  </html>
